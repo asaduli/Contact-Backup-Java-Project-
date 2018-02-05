@@ -46,46 +46,61 @@ public class HomePage extends javax.swing.JFrame {
 
         jPanel1.setLayout(null);
 
-        jButton1.setText("jButton1");
+        jButton1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(0, 255, 51));
+        jButton1.setText("Edit Contact ");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(540, 150, 220, 110);
+        jButton1.setBounds(540, 110, 220, 110);
 
-        jButton6.setText("jButton1");
+        jButton6.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        jButton6.setForeground(new java.awt.Color(0, 255, 51));
+        jButton6.setText("Contact List");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
         jPanel1.add(jButton6);
-        jButton6.setBounds(540, 500, 220, 110);
+        jButton6.setBounds(540, 490, 220, 110);
 
-        jButton5.setText("jButton2");
+        jButton5.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(0, 255, 51));
+        jButton5.setText("Emergency Contact");
         jPanel1.add(jButton5);
-        jButton5.setBounds(180, 510, 220, 110);
+        jButton5.setBounds(160, 500, 260, 110);
 
-        jButton3.setText("jButton2");
+        jButton3.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(0, 255, 51));
+        jButton3.setText("Delete Contact");
         jPanel1.add(jButton3);
         jButton3.setBounds(180, 310, 220, 110);
 
-        jButton4.setText("jButton1");
+        jButton4.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(0, 255, 51));
+        jButton4.setText("Search ");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
             }
         });
         jPanel1.add(jButton4);
-        jButton4.setBounds(540, 330, 220, 110);
+        jButton4.setBounds(540, 310, 220, 110);
 
-        jButton2.setBackground(new java.awt.Color(255, 0, 255));
+        jButton2.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         jButton2.setForeground(new java.awt.Color(0, 255, 51));
-        jButton2.setText("jButton2");
+        jButton2.setText("Import Contact");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton2);
-        jButton2.setBounds(180, 150, 220, 110);
+        jButton2.setBounds(180, 100, 220, 110);
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Seyam\\Downloads\\modern-floral-background-31.jpeg")); // NOI18N
         jPanel1.add(jLabel1);
@@ -117,6 +132,10 @@ public class HomePage extends javax.swing.JFrame {
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
